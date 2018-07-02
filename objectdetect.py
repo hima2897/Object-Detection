@@ -19,7 +19,7 @@ from PIL import Image
 from utils import dataset_util
 from collections import namedtuple, OrderedDict
 
-from object_detection import trainer
+import trainer
 from builders import dataset_builder
 from builders import graph_rewriter_builder
 from builders import model_builder
