@@ -22,7 +22,7 @@ from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
-from object_detection.utils import ops as utils_ops
+from utils import ops as utils_ops
 
 if tf.__version__ < '1.4.0':
   raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
@@ -36,8 +36,8 @@ if tf.__version__ < '1.4.0':
 
 # ## Object detection imports
 # Here are the imports from the object detection module.
-from object_detection.utils import label_map_util
-from object_detection.utils import visualization_utils as vis_util
+from utils import label_map_util
+from utils import visualization_utils as vis_util
 
 # # Model preparation 
 # ## Variables
